@@ -1,0 +1,24 @@
+@HOST =  http://school.app.ljlx.com
+
+####
+//查询班级考勤信息
+POST {{HOST}}/campus/statistic/daily/class HTTP/1.1
+content-type: application/json
+
+{
+  "id": 24808385,
+  "data": "2019-08-26",
+  "schoolid": 23378114
+}
+
+
+####
+//查询班级考勤信息
+POST http://api.banpai.ljlx.com/classshow/api/getClassEventInfo HTTP/1.1
+content-type: application/json
+
+{
+  "classid": 24808385,
+  "schoolid": 23378114
+}
+
