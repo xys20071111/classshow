@@ -1,0 +1,1 @@
+call git submodule add http://192.168.2.4:8080/tfs/ljshell/_git/ljsvrbase ./svrbase
